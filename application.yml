@@ -1,6 +1,6 @@
 server:
   port: ${PORT}
-  address: 127.0.0.1
+  address: 0.0.0.0
 spring:
   main:
     banner-mode: log
@@ -8,8 +8,8 @@ lavalink:
   server:
     password: LAVA
     ws:
-      port: 3333
-      host: 127.0.0.1
+      port: ${PORT}
+      host: 0.0.0.0
     sources:
       youtube: true
       bandcamp: true
