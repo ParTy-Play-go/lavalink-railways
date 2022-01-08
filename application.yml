@@ -1,6 +1,6 @@
 server:
   port: ${PORT}
-  address: 0.0.0.0
+  address: 127.0.0.1
 spring:
   main:
     banner-mode: log
@@ -14,7 +14,7 @@ lavalink:
       twitch: true
       vimeo: true
       mixer: true
-      http: true
+      http: false
       spotify: true
       local: false
     bufferDurationMs: 400
